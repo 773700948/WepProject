@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width , initial-scale=1.0">
+
+    <title>
+    Unversity Website Desing - Easy Tutorials
+        </title>
+
+    <!--------------CSS File Path&&link-->
+        <link rel="stylesheet" href="style.css">
+
+
+    <!--------------Some Of Fonts Used in the Design----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--------------------------Home Section----------------------------------------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+      <h1>Our courses</h1>
+    </section>
+
+<!---------------------- Course ---------------------------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet ,consectetur,adipiscing elit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet ,consectetur adipiscing elit.
+                pellentesque aliquet turpis nulla , eleifend faucibus easiest
+                sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet ,consectetur adipiscing elit.
+                pellentesque aliquet turpis nulla , eleifend faucibus easiest
+                sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet ,consectetur adipiscing elit.
+                pellentesque aliquet turpis nulla , eleifend faucibus easiest
+                sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
+                Donec sit.
+            </p>
+        </div>
+    </div>
+</section>
+<!-----------------------------facilities-------------------------->
+
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet ,consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" >
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet ,consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" >
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet ,consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!------------------------------Footer------------------------------->
+<section class="footer">
+    
+    <h4>ABOUT US</h4>
+    <P>Lorem ipsum dolor sit amet,consectetur adipiscing
+        elit. Pellentesque aliquet turpis nulla ,eleifend 
+        faucibus est<br> sollicitudin ut. Meacenas ut venenatis ex,
+        et dapibus purus.</P>
+
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa fa-heart-o"></i> by ENG-EZZLDEEN</p>
+</section>    
+
+<!---------------JavaScript For Toggle Menu------------->
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+
+</script>
+
+</body>
+</html>
